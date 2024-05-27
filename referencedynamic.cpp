@@ -17,8 +17,21 @@ int main()
     // cout<<i<<endl;
     // cout<<j<<endl;
     
-    int n=5;
-    cout<<"before"<< n<<endl;
+    // int n=5;
+    // cout<<"before"<< n<<endl;
+    int n;
+    cin>>n;
+    int* arr=new int[n];
+    for(int i=0;i<5;i++)
+    {
+
+        cin>>*(arr+i);
+    }
+    for(int i=0;i<5;i++)
+    {
+
+       cout<<*(arr+i)<<endl;
+    }
    
     
   
