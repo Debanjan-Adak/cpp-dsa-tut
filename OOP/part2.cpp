@@ -27,12 +27,21 @@ class Male: public Human{
      cout<<"male sleeping"<<endl;   
     }
 };
+class Hybrid: public Human,public Male
+{
+
+};
 int main()
 {
-    Male object1;
-    cout<<object1.age<<endl;
-    cout<<object1.weight<<endl;
-    cout<<object1.height<<endl;
-    object1.sleep();
-    cout<<object1.color<<endl;
+    Male m1;
+    
+
+
+
+    // Male object1;
+    // cout<<object1.age<<endl;
+    // cout<<object1.weight<<endl;
+    // cout<<object1.height<<endl;
+    // object1.sleep();
+    // cout<<object1.color<<endl;
 }
